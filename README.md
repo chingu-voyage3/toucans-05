@@ -1,7 +1,5 @@
 # toucans-5
 
-Here is our project on Codepen https://codepen.io/Jahnava/pen/BmgadP
-
 USER STORIES HERE:
 -As a user I want five primary links in the navigation bar.
 -As a user I want a list of links to appear as a dropdown menu when hovering over each nav link.
