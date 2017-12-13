@@ -1,0 +1,10 @@
+body {
+    background-image: url("/images/warriorBackground.png");
+    background-repeat: no-repeat;
+    background-image: center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
