@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Warrior</title>
-    <link rel="stylesheet" href="/css/warrior.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  </head>
+    <link rel="stylesheet" href="/css/warrior.css">
+    </head>
   <body>
     <!-- navbar -->
     <div>
-      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <nav id="black-nav" class="navbar navbar-expand-lg navbar-inverse">
     <a class="navbar-brand" href="#">logo here</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,26 +46,31 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-          <div class=''>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link float-right" href="#">My Account</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle float-right" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Esports
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-         </div>
         </li>
       </ul>
     </div>
+
+    <div class="collapse navbar-collapse">
+    <ul class="float-right navbar-nav">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">My Account</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Esports
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+     </div>
+    </ul>
   </nav>
 </div>
+
+
 
 <!-- JavaScript -->
 <script src="/js/app.js" charset="utf-8"></script>
