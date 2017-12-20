@@ -1,16 +1,17 @@
 body,html {
   height: 100%;
-  /*background-color: #0F0A63;*/
-  /*background-color: #000 !important;*/
-  /*background-color: #d89b00;*/
 }
 
 /*logo*/
 .bg {
   background-image: url('../images/parmentdragon (1).png');
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-image: center;
+   background-position: center;
+ background-repeat:no-repeat;
+ background-size: 100% 100%;
+ height: auto;
+  width: 100%;
+ overflow: scroll;
 
 
 }
@@ -29,7 +30,6 @@ body,html {
 .vertical-center {
   min-height: 100%;
   min-height: 100vh;
-
   display: flex;
   align-items: center;
 }
@@ -42,28 +42,32 @@ vertical-align: top;
 }
 
 .nav-link {
- text-shadow: 4px 4px 8px rgba(0, 0, 74, 1);
+text-shadow: 4px 4px 30px rgba(0, 0, 255, 1);
 margin: 0px 30px 0px 30px;
 font-weight: bold;
 }
 
 .nav-link:hover {
-  box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black;
+/*   text-decoration: underline;
+  text-decoration-color: black; */
+  box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black
 }
 
-/* nav drop hover */
- .dropdown:hover .dropdown-menu {
-       /*display: block;*/
-   }
 
-.dropdown .dropdown-menu {
+.dropdown-menu {
   background-color: silver;
-  text-decoration: underline;
-  text-align: center;
+   overflow: auto;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 
 h3 {
   margin: 0;
-  -webkit-text-stroke: 1px #525C65;
+ -webkit-text-stroke: 1px #0000ff;
+  color: #1414fb;
+
 }
