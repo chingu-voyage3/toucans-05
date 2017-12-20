@@ -72,6 +72,10 @@ body {
    height: 5em;
  }
 
+ .small-space {
+   height: 15px;
+ }
+
  .medium-beige-text {
    font-size: 1.4688rem;
      font-weight: 400;
@@ -82,10 +86,18 @@ body {
  }
 
  .medium-white-font{
-     font-size: 1.4688rem;
+     font-size: 24px;
      font-weight: 700;
      text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
  }
+
+ .large-beige-text {
+   font-weight: 700;
+    font-size: 24px;;
+   color: #b1997f;
+   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+ }
+
 
  p {
      display: block;
