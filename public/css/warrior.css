@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/warriorBackground.png");
+    background-image: url("../images/warriorBackground.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
@@ -100,7 +100,7 @@ body {
  }
 
  #paper {
-  background-image: url("/images/paper.png");
+  background-image: url("../images/paper.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
@@ -128,4 +128,9 @@ body {
 
 .features-div {
       padding-left: 5px;
+}
+
+.imgPadding {
+  padding-right: 10px;
+  padding-bottom: 1px;
 }
