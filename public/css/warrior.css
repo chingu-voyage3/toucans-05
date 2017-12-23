@@ -1,5 +1,9 @@
-body {
-    background-image: url("../images/warriorBackground.png");
+body, html {
+background-color: black;
+}
+
+#warrior-background {
+    background-image: url("/images/warriorBackground.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
@@ -9,6 +13,7 @@ body {
     font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
     color: #fff;
     font-weight: 400;
+    font-size: 15px;
  }
 
  /*top navbar*/
@@ -21,6 +26,7 @@ body {
  .nav-link {
  margin: 0px 30px 0px 30px;
  font-weight: bold;
+ font-size: 15px;
  }
 
 
@@ -28,18 +34,16 @@ body {
    background-color:#002040;
    text-align: center;
    color: white;
+   font-size: 15px;
  }
 
  .dropdown-item {
    color: white;
  }
 
- #black-nav {
+ .black-nav {
    background-color: black;
  }
-
- /* floating navbar */
-
 
 
  /* page title */
@@ -72,20 +76,31 @@ body {
    height: 5em;
  }
 
+ .small-space {
+   height: 15px;
+ }
+
  .medium-beige-text {
-   font-size: 1.4688rem;
+   font-size: 20px;
      font-weight: 400;
-     font-size: 1.296rem;
      color: #ebdec2;
      text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
    text-align: center;
  }
 
  .medium-white-font{
-     font-size: 1.4688rem;
+     font-size: 24px;
      font-weight: 700;
      text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
  }
+
+ .large-beige-text {
+   font-weight: 700;
+    font-size: 24px;
+   color: #b1997f;
+   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+ }
+
 
  p {
      display: block;
@@ -93,10 +108,7 @@ body {
      -webkit-margin-after: 1em;
      -webkit-margin-start: 0px;
      -webkit-margin-end: 0px;
- }
-
- .row-one {
-   float:left;
+     font-size: 20px;
  }
 
  #paper {
@@ -107,10 +119,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 15px;
+    padding: 15px;
   margin: 3px;
  color: #352011;
  -webkit-box-shadow: 0 0 16px 6px rgba(0,0,0,.5);
+ height: 500px ;
+}
+
+.collapsed {
+  font-size:20px;
 }
 
 .medium-blue-text {
@@ -130,6 +147,42 @@ body {
       padding-left: 5px;
 }
 
+
+/*social media links*/
+.social {
+  margin: 5px 0 12px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  color: yellow;
+}
+
+.social i {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.social i:hover {
+  color:white;
+}
+
+
+.bottom-background {
+  background-color: black;
+  margin: 20px;
+  outline-color: silver;
+  outline-style: inset;
+  outline-width: thin;
+  color: white;
+}
+
+.fixed-bottom {
+  padding: 20px;
+}
+
+.navbar-brand{
+  font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+=======
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
