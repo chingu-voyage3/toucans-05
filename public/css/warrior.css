@@ -112,8 +112,8 @@ background-color: black;
  }
 
  #paper {
-  background-image: url("/images/paper.png");
-  background-repeat: no-repeat;
+  background-image: url("../images/paper.png");
+    background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,6 +146,7 @@ background-color: black;
 .features-div {
       padding-left: 5px;
 }
+
 
 /*social media links*/
 .social {
@@ -181,4 +182,8 @@ background-color: black;
 
 .navbar-brand{
   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+=======
+.imgPadding {
+  padding-right: 10px;
+  padding-bottom: 1px;
 }
