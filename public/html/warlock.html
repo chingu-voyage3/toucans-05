@@ -6,18 +6,22 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/classes.css">
+    <link rel="stylesheet" href="../css/warlock.css">
     </head>
   <body>
+    <section id="warrior-background">
     <!-- top navbar -->
    <div>
-    <nav id="black-nav" class="navbar navbar-expand-lg navbar-inverse">
+    <nav class="navbar navbar-expand-lg navbar-inverse black-nav">
   <a class="navbar-brand" href="#">
-  <img src="/images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
+  <img src="../images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
 </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -73,14 +77,13 @@
 </nav>
 </div>
 
-<!-- floating nav -->
 
 <!-- page title -->
 <div='warrior-content'>
 <div class='large-space'></div>
-<div class='warrior-title'>Warrior</div>
+<div class='warrior-title'>Warlock</div>
 <div class='medium-space'></div>
-<div class='medium-beige-text'>Tank, Damage</div>
+<div class='medium-beige-text'>Damage</div>
 </div>
 <div class='large-space'></div>
 <div class="container float-center">
@@ -88,38 +91,42 @@
 <!-- page content-->
 <div class="container">
   <div class="row">
-    <div class="col flex-unordered">
-       <div class="medium-white-font">Lords of War</div>
+    <div class="col flex-unordered space">
+       <div class="medium-white-font text-center">Channelers of Forbidden Powers</div>
+
       <div class="paragraph-text">
-        <p> For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.</p>
+        <img class="imgPadding" src="../images/.png" width="190px" style="float: left" />
+        <p> In the face of demonic power, most heroes see death. Warlocks see only opportunity. Dominance is their aim, and they have found a path to it in the dark arts. These voracious spellcasters summon demonic minions to fight beside them. At first, they command only the service of imps, but as a warlock’s knowledge grows, seductive succubi, loyal voidwalkers, and horrific felhunters join the dark sorcerer’s ranks to wreak havoc on anyone who stands in their master’s way.</p>
       </div>
 
   <div class="medium-white-font">Class Information</div>
       <div class="paragraph-text">
-        <p> Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat.
+        <p> Warlocks burn and destroy weakened foes with a combination of crippling illnesses and dark magic. While their demon pets protect and enhance them, warlocks strike at their enemies from a distance. As physically weak spellcasters bereft of heavy armor, cunning warlocks allow their minions to take the brunt of enemy attacks in order to save their own skin.
 <ul>
 <li class="large-beige-text">Combat Roles</li>
-Tank, Damage
+Damage
 <div class="small-space"></div>
 <li class="large-beige-text">Resources</li>
-Health, Rage
+Health, Mana, Soul Shards
 <div class="small-space"></div>
 <li class="large-beige-text">Armor Type</li>
-Plate, Shields
+Cloth
 <div class="small-space"></div>
 <li class="large-beige-text">Available Weapons</li>
-<li>Daggers, Fist Weapons, Axes, Maces, Swords, Polearms, Staves</li></p>
+<li>Daggers, One-Handed Swords, Staves, Wands</li></p>
       </div>
 <div class="medium-space"></div>
 
   <div class="medium-white-font">Specializations</div>
       <div class="paragraph-text">
-        <p> Warrior talents can improve their already considerable defenses with a shield, increase their deadliness with two-handed weapons, or bolster their savagery while dual-wielding.</p>
+        <p> Warlock talents can improve the damage of their searing magics, increase the potency of their curses and persistent damaging spells, and empower their demonic servants.</p>
       </div>
     </div>
 
+    <div class="col-md-1"></div>
+
     <!--     Features section -->
-    <div id='paper' class="col flex-last float-right">
+    <div id='paper' class="col flex-last ">
      <div class='medium-space'></div>
      <div class='medium-blue-text text-center'>Features</div>
      <div class='features-div'>
@@ -128,14 +135,14 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingOne">
       <h5 class="mb-0">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Tank
+          Ranged Damage
         </a>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="card-block">
-        Mighty warriors depend on their heavy armor, shields, and battle prowess to defend themselves and ensure enemies don’t focus on their softer-skinned allies.
+        Warlocks deliver fire and shadow damage with their spells, and they’re able to hurt others both instantly and with ongoing afflictions.
       </div>
     </div>
   </div>
@@ -143,13 +150,13 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Melee Damage
+          Summoning
         </a>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="card-block">
-       Weapon mastery is a staple of warrior training, and they are capable of delivering high damage with enormous two-handed weapons or by wielding two weapons.
+       Warlocks are adept at summoning their allies to their presence, whether said allies are other heroes or bloodthirsty demons.
       </div>
     </div>
   </div>
@@ -157,25 +164,52 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Rage
+        Pets
         </a>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="card-block">
-        As warriors deal or take damage, their rage grows, allowing them to deliver truly crushing attacks in the heat of battle
+      Warlocks bind demons to their will; these infernal denizens defend their masters with their lives or rain death upon their enemies.
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="card-header" role="tab" id="headingFour">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Demonic Resources
+        </a>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="card-block">
+      Warlocks make use of soul shards to empower their own spells, making them swifter or more deadly.
       </div>
     </div>
   </div>
  </div>
  </div>
  </div>
-<!--     <div class="col flex-first">
+</section>
 
-    </div> -->
-  </div>
+<div class="medium-space"></div>
+<div class='bottom-background'>
+<!--  social media links        -->
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-inverse">
+<div class="container">
+<div class="social text-center">
+  <a class="navbar-brand" href="#">FOLLOW WARCRAFT</a>
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+   <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+   <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+ </div>
 
-
+</div>  <!-- closing the container around the social div"-->
+</div>
+</nav>
+</div>
 <!-- JavaScript -->
 <script src="/js/app.js" charset="utf-8"></script>
 
@@ -185,4 +219,5 @@ Plate, Shields
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
   </body>
+
 </html>

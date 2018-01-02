@@ -4,7 +4,6 @@ background-color: black;
 
 #warrior-background {
     background-image: url("/images/warriorBackground.png");
-
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;

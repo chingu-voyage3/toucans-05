@@ -1,10 +1,13 @@
 body, html {
-background-color: black;
+  background: rgb(69,72,77); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9*/
 }
 
 #warrior-background {
-    background-image: url("/images/warriorBackground.png");
-
+    background-image: url("../images/shaman-background.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
@@ -15,6 +18,7 @@ background-color: black;
     color: #fff;
     font-weight: 400;
     font-size: 15px;
+    background-size: 100% 100%;
  }
 
  /*top navbar*/
