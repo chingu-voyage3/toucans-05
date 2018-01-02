@@ -3,7 +3,7 @@ background-color: black;
 }
 
 #warrior-background {
-    background-image: url("/images/warriorBackground.png");
+   background-image: url("../images/hunterForrest.jpg");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
