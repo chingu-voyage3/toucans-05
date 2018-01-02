@@ -2,22 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Druid</title>
+    <title>Warrior</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/classes.css">
+    <link rel="stylesheet" href="../css/druid.css">
     </head>
   <body>
+    <section id="warrior-background">
     <!-- top navbar -->
    <div>
-    <nav id="black-nav" class="navbar navbar-expand-lg navbar-inverse">
+    <nav class="navbar navbar-expand-lg navbar-inverse black-nav">
   <a class="navbar-brand" href="#">
-  <img src="/images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
+  <img src="../images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
 </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -73,14 +77,13 @@
 </nav>
 </div>
 
-<!-- floating nav -->
 
 <!-- page title -->
 <div='warrior-content'>
 <div class='large-space'></div>
-<div class='warrior-title'>Warrior</div>
+<div class='warrior-title'>Druid</div>
 <div class='medium-space'></div>
-<div class='medium-beige-text'>Tank, Damage</div>
+<div class='medium-beige-text'>Tank, Healer, Damage</div>
 </div>
 <div class='large-space'></div>
 <div class="container float-center">
@@ -88,38 +91,42 @@
 <!-- page content-->
 <div class="container">
   <div class="row">
-    <div class="col flex-unordered">
-       <div class="medium-white-font">Lords of War</div>
+    <div class="col flex-unordered space">
+       <div class="medium-white-font text-center">Savage Shapeshifters</div>
+
       <div class="paragraph-text">
-        <p> For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.</p>
+        <img class="imgPadding" src="../images/druidchar.png" width="190px" style="float: left" />
+        <p> Druids harness the vast powers of nature to preserve balance and protect life. With experience, druids can unleash nature’s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones.</p>
       </div>
 
   <div class="medium-white-font">Class Information</div>
       <div class="paragraph-text">
-        <p> Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat.
+        <p> Druids are versatile combatants, in that they can fulfill nearly every role – healing, tanking, and damage dealing. It’s critical that druids tailor the form they choose to the situation, as each form bears a specific purpose</p>
 <ul>
 <li class="large-beige-text">Combat Roles</li>
-Tank, Damage
+Tank, Damage, Healer
 <div class="small-space"></div>
 <li class="large-beige-text">Resources</li>
-Health, Rage
+Health, Mana, Rage, Energy, Astral Power
 <div class="small-space"></div>
 <li class="large-beige-text">Armor Type</li>
-Plate, Shields
+Leather
 <div class="small-space"></div>
 <li class="large-beige-text">Available Weapons</li>
-<li>Daggers, Fist Weapons, Axes, Maces, Swords, Polearms, Staves</li></p>
+<li>Daggers, Fist Weapons, Maces, Polearms, Staves</li>
       </div>
 <div class="medium-space"></div>
 
   <div class="medium-white-font">Specializations</div>
       <div class="paragraph-text">
-        <p> Warrior talents can improve their already considerable defenses with a shield, increase their deadliness with two-handed weapons, or bolster their savagery while dual-wielding.</p>
+        <p> Druid talents focus on improving the powers of their natural and animal forms, enhancing their ability to summon forth natural phenomena, or increase the potency of their life-giving healing magic</p>
       </div>
     </div>
 
+    <div class="col-md-1"></div>
+
     <!--     Features section -->
-    <div id='paper' class="col flex-last float-right">
+    <div id='paper' class="col flex-last ">
      <div class='medium-space'></div>
      <div class='medium-blue-text text-center'>Features</div>
      <div class='features-div'>
@@ -135,7 +142,7 @@ Plate, Shields
 
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="card-block">
-        Mighty warriors depend on their heavy armor, shields, and battle prowess to defend themselves and ensure enemies don’t focus on their softer-skinned allies.
+        When shapeshifted into their bear form, druids possess a thick skin and imposing presence that makes them ideal front-line protectors of weaker party members.
       </div>
     </div>
   </div>
@@ -143,13 +150,13 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Melee Damage
+          Healing
         </a>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="card-block">
-       Weapon mastery is a staple of warrior training, and they are capable of delivering high damage with enormous two-handed weapons or by wielding two weapons.
+      By calling upon the powers of nature, druids are able to swiftly restore health to their injured allies.
       </div>
     </div>
   </div>
@@ -157,23 +164,54 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Rage
+          Melee and Ranged Damage
         </a>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="card-block">
-        As warriors deal or take damage, their rage grows, allowing them to deliver truly crushing attacks in the heat of battle
+        Druids can take on the form of a savage cat in order to claw and bite their enemies up close, or that of a wild moonkin to blast enemies from afar.
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="card-header" role="tab" id="headingFour">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Shapeshifting
+        </a>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="card-block">
+        Druids’ changing forms let them assume different roles and focus on either tanking, healing, or damage. They can also shapeshift to travel faster on land, sea, and air.
       </div>
     </div>
   </div>
  </div>
  </div>
  </div>
-<!--     <div class="col flex-first">
+</section>
 
-    </div> -->
-  </div>
+<div class="medium-space"></div>
+<div class='bottom-background'>
+<!--  social media links        -->
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-inverse">
+<div class="container">
+<div class="social text-center">
+  <a class="navbar-brand" href="#">FOLLOW WARCRAFT</a>
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+   <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+   <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+ </div>
+
+</div>  <!-- closing the container around the social div"
+
+</div>
+</nav>
+</div>
+
 
 
 <!-- JavaScript -->
@@ -185,4 +223,5 @@ Plate, Shields
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
   </body>
+
 </html>
