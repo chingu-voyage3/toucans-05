@@ -38,9 +38,17 @@ background-color: black;
    font-size: 15px;
  }
 
+
  .dropdown-item {
    color: white;
+   background-color:#002040;
  }
+
+ .dropdown-item:hover {
+   color: white;
+   background-color:#002040;
+ }
+
 
  .black-nav {
    background-color: black;
@@ -183,7 +191,6 @@ background-color: black;
 
 .navbar-brand{
   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
-=======
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
