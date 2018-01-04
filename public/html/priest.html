@@ -6,81 +6,198 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/classes.css">
+
+    <link rel="stylesheet" href="../css/priest.css">
+
     </head>
   <body>
-    <!-- top navbar -->
-   <div>
-    <nav id="black-nav" class="navbar navbar-expand-lg navbar-inverse">
-  <a class="navbar-brand" href="#">
-  <img src="/images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
-</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">News</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Support
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-  <div class="collapse navbar-collapse">
-  <ul class="float-right navbar-nav">
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">My Account</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Esports
+    <section id="warrior-background">
+      <!-- top navbar -->
+     <div>
+      <nav class="navbar navbar-expand-lg navbar-inverse black-nav">
+    <a class="navbar-brand" href="#">
+    <img src="../images/lizzard-fakeLogo.png" width="100%" height="150%" class="d-inline-block align-top" alt="">
     </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-    </div>
-   </div>
-  </ul>
-</nav>
-</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!-- floating nav -->
+
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            NEWS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../html/index.html">Thinkbott</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Site News</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://news.blizzard.com/en-us">Blizzard</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            FIND
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Weapons</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Armor</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Quests</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">NPCs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Items</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Zones</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CLASSES
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="right: auto; left:-410px;">
+            <div class="container">
+              <div class="row d-inline-block text-truncate" style="max-width: 100%;">
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/death-knight.html"><img src="../images/deathknight.png" style="width:100px; height:100px;" alt="..." class="img-thumbnail"></a>
+                    <a>Death Knight</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/demon-hunter.html"><img src="../images/Demonhunterchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Demon Hunter</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/druid.html"><img src="../images/druidchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Druid</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/hunter.html"><img src="../images/hunterChar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Hunter</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/mage.html"><img src="../images/mageChar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Mage</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/monk.html"><img src="../images/monk.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Monk</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/paladin.html"><img src="../images/Paladinchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Paladin</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/priest.html"><img src="../images/priestchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Priest</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/rouge.html"><img src="../images/rogue.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Rouge</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/shaman.html"><img src="../images/shaman.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Shaman</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/warlock.html"><img src="../images/warlock.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Warlock</a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a class="dropdown-item" href="../html/warrior.html"><img src="../images/warrior.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                    <a>Warrior</a>
+                  </div>
+                 </div>
+               </div>
+            </div>
+          </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PROFESSIONS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Alchemy</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Blacksmithing</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Enchanting</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Engineering</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Herbalism</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Zones</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Inscription</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Jewelcrafting</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Leatherworking</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Mining</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Skinning</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Tailoring</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Archaeology</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Cooking</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">First Aid</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Fishing</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="collapse navbar-collapse">
+    <ul class="float-right navbar-nav">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Support</a>
+    </li>
+
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        My Account
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <input class="btn btn-primary btn-lg" type="submit" value="Log In">
+          <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Account Settings</a>
+          <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><i class="fa fa-plus" aria-hidden="true"></i> Create a Free Account</a>
+      </li>
+      </div>
+     </div>
+    </ul>
+    </nav>
+    </div>
+
 
 <!-- page title -->
 <div='warrior-content'>
 <div class='large-space'></div>
-<div class='warrior-title'>Warrior</div>
+<div class='warrior-title'>Priest</div>
 <div class='medium-space'></div>
-<div class='medium-beige-text'>Tank, Damage</div>
+<div class='medium-beige-text'>Healer, Damage</div>
 </div>
 <div class='large-space'></div>
 <div class="container float-center">
@@ -88,38 +205,44 @@
 <!-- page content-->
 <div class="container">
   <div class="row">
-    <div class="col flex-unordered">
-       <div class="medium-white-font">Lords of War</div>
+    <div class="col flex-unordered space">
+
+       <div class="medium-white-font text-center">Invokers of Light and Darkness</div>
+
       <div class="paragraph-text">
-        <p> For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.</p>
+        <img class="imgPadding" src="../images/priestchar.png" width="190px" style="float: left" />
+        <p> Priests are devoted to the spiritual, and express their unwavering faith by serving the people. For millennia they have left behind the confines of their temples and the comfort of their shrines so they can support their allies in war-torn lands. In the midst of terrible conflict, no hero questions the value of the priestly orders.</p>
+
       </div>
 
   <div class="medium-white-font">Class Information</div>
       <div class="paragraph-text">
-        <p> Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat.
+        <p> Priests use powerful healing magic to fortify themselves and their allies. They also wield powerful offensive spells from a distance, but can be overwhelmed by enemies due to their physical frailty and minimal armor. Experienced priests carefully balance the use of their offensive powers when tasked with keeping their party alive.
 <ul>
 <li class="large-beige-text">Combat Roles</li>
-Tank, Damage
+Healer, Damage
 <div class="small-space"></div>
 <li class="large-beige-text">Resources</li>
-Health, Rage
+Health, Mana, Insanity
 <div class="small-space"></div>
 <li class="large-beige-text">Armor Type</li>
-Plate, Shields
+Cloth
 <div class="small-space"></div>
 <li class="large-beige-text">Available Weapons</li>
-<li>Daggers, Fist Weapons, Axes, Maces, Swords, Polearms, Staves</li></p>
+<li>Daggers, One-Handed Maces, Staves, Wands</li></p>
       </div>
 <div class="medium-space"></div>
 
   <div class="medium-white-font">Specializations</div>
       <div class="paragraph-text">
-        <p> Warrior talents can improve their already considerable defenses with a shield, increase their deadliness with two-handed weapons, or bolster their savagery while dual-wielding.</p>
+        <p> Priest talents can strengthen their ability to heal the wounded, endanger their foes with the power of Shadow, or empower themselves and others with protective prayers.</p>
       </div>
     </div>
 
+    <div class="col-md-1"></div>
+
     <!--     Features section -->
-    <div id='paper' class="col flex-last float-right">
+    <div id='paper' class="col flex-last ">
      <div class='medium-space'></div>
      <div class='medium-blue-text text-center'>Features</div>
      <div class='features-div'>
@@ -128,14 +251,14 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingOne">
       <h5 class="mb-0">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Tank
+          Healing
         </a>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="card-block">
-        Mighty warriors depend on their heavy armor, shields, and battle prowess to defend themselves and ensure enemies don’t focus on their softer-skinned allies.
+        Priests utilize their holy powers to restore their health and that of their comrades.
       </div>
     </div>
   </div>
@@ -143,13 +266,13 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Melee Damage
+          Ranged Damage
         </a>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="card-block">
-       Weapon mastery is a staple of warrior training, and they are capable of delivering high damage with enormous two-handed weapons or by wielding two weapons.
+       Priestly Shadow magic can deliver great amounts of immediate damage, or wracking pains that punish foes over longer periods of time.
       </div>
     </div>
   </div>
@@ -157,25 +280,51 @@ Plate, Shields
     <div class="card-header" role="tab" id="headingThree">
       <h5 class="mb-0">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Rage
+          Power Words
         </a>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="card-block">
-        As warriors deal or take damage, their rage grows, allowing them to deliver truly crushing attacks in the heat of battle
+        By calling on mystic shielding and holy empowerment, priests can prevent incoming damage and improve their defenses and those of their allies.
       </div>
     </div>
+    <div class="">
+      <div class="card-header" role="tab" id="headingFour">
+        <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Mind Control
+          </a>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="card-block">
+          Priests’ connection with the minds and spirits of living beings allows them to control and manipulate others.
+        </div>
+      </div>
   </div>
  </div>
  </div>
  </div>
-<!--     <div class="col flex-first">
+</section>
 
-    </div> -->
-  </div>
+<div class="medium-space"></div>
+<div class='bottom-background'>
+<!--  social media links        -->
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-inverse">
+<div class="container">
+<div class="social text-center">
+  <a class="navbar-brand" href="#">FOLLOW WARCRAFT</a>
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+   <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+   <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+ </div>
 
-
+</div>  <!-- closing the container around the social div"-->
+</div>
+</nav>
+</div>
 <!-- JavaScript -->
 <script src="/js/app.js" charset="utf-8"></script>
 
@@ -185,4 +334,5 @@ Plate, Shields
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
   </body>
+
 </html>

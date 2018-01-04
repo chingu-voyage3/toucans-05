@@ -3,7 +3,7 @@ background-color: black;
 }
 
 #warrior-background {
-    background-image: url("../images/warriorBackground.png");
+    background-image: url("../images/death-knight-background.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
@@ -38,6 +38,7 @@ background-color: black;
    font-size: 15px;
  }
 
+/* style for dropdown links */
  .dropdown-item {
    color: #9d9d9d;
    background-color:#002040;
@@ -55,6 +56,7 @@ background-color: black;
 .navbar-toggler-icon {
   background-color: black;
  }
+
 
  .black-nav {
    background-color: black;
@@ -197,7 +199,6 @@ background-color: black;
 
 .navbar-brand{
   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
-=======
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
