@@ -38,9 +38,25 @@ background-color: black;
    font-size: 15px;
  }
 
+/* style for dropdown links */
  .dropdown-item {
-   color: white;
+   color: #9d9d9d;
+   background-color:#002040;
  }
+
+ .dropdown-item:hover {
+   color: white;
+   background-color:#002040;
+ }
+
+ .navbar-toggler {
+   background-color: silver;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
+ }
+
 
  .black-nav {
    background-color: black;
@@ -183,8 +199,8 @@ background-color: black;
 
 .navbar-brand{
   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
-=======
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
 }
+
