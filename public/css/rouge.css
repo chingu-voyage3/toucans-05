@@ -43,7 +43,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
  }
 
  .dropdown-item {
+   color: #9d9d9d;
+   background-color:#002040;
+ }
+
+ .dropdown-item:hover {
    color: white;
+   background-color:#002040;
+ }
+
+ .navbar-toggler {
+   background-color: silver;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
  }
 
  .black-nav {
