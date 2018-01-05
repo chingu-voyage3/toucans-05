@@ -2,6 +2,7 @@ body,html {
   height: 100%;
 }
 
+
 /*logo*/
 .bg {
   background-image: url('../images/parmentdragon (1).png');
@@ -11,8 +12,7 @@ body,html {
  background-size: 100% 100%;
  height: auto;
   width: 100%;
- overflow: scroll;
-
+ overflow-y: scroll;
 
 }
 
@@ -56,13 +56,14 @@ font-weight: bold;
 
 .dropdown-menu {
   background-color: silver;
-   overflow: auto;
-  overflow-y: scroll;
+   /* overflow-y: auto;
+  overflow-y: scroll; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
+
 
 
 h3 {
