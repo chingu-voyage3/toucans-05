@@ -48,21 +48,14 @@ font-weight: bold;
 }
 
 .nav-link:hover {
-/*   text-decoration: underline;
-  text-decoration-color: black; */
   box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black
 }
 
 
 .dropdown-menu {
   background-color: silver;
-   /* overflow-y: auto;
-  overflow-y: scroll; */
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
 
 
 
