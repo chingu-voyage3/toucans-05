@@ -1,0 +1,55 @@
+html{
+    margin: 0 auto;
+ }
+
+body {
+     background-image: url("../images/login-signup-background(2).jpg");
+     background-repeat: no-repeat;
+     background-image: center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     color: white;
+     text-align: center;
+     overflow-y:scroll;
+     font-family: "Blizzard","Arial","Helvetica","Segoe UI Symbol","Segoe MDL2 Assets",sans-serif;
+ }
+
+ .form-title{
+   margin-top: 10%;
+   margin-bottom: 2%;
+ }
+
+ a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
+}
+
+ .social-divider{
+   margin-top: 2%;
+   font-size: 10px;
+   color: silver;
+ }
+
+ #signup-form{
+   width:50%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+ }
+
+#inputGroupSelect01{
+  width: 100%;
+}
+
+.input-group-text{
+  width: 100%;
+}
+
+.input {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.country-select{
+  width: 100%;
+  height: 100%;
+}
