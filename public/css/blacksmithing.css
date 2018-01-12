@@ -3,7 +3,6 @@ background-color: black;
 }
 
 #warrior-background {
-  background-color: green;
     background-image: url("../images/Blacksmith_working.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
@@ -20,12 +19,14 @@ background-color: black;
 
  #background-container {
    background-image: url("/images/book-background.jpg");
+   background-color: #200D00;
    background-repeat: no-repeat;
    background-image: center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   border-radius: 25px;
    font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
    color: #fff;
    font-weight: 400;
@@ -88,15 +89,15 @@ background-color: black;
 
 /*page content*/
  .warrior-title {
-   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
-     font-weight: 700;
-     font-size: 3.655rem;
-    text-align: center;
-    text-shadow: 0 0 1px transparent, 0 0 5px rgba(0,0,0,.8);
+   font-family:"Palatino Linotype", Georgia, Times, sans-serif;
+     font-size: 4.655rem;
+    text-shadow: #241209 0 0 5px;
+    margin-top: 10%;
+    color: #efe3d2;
  }
 
  .card-block {
-   color: white;
+   color: #b1997f;
  }
 
  div{
@@ -131,9 +132,10 @@ background-color: black;
 
  .large-beige-text {
    font-weight: 700;
-    font-size: 24px;
-   color: #b1997f;
+    font-size: 20px;
+   color: #854a26;
    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+   border-bottom: 1px solid rgb(75, 42, 23);
  }
 
 
@@ -143,11 +145,21 @@ background-color: black;
      -webkit-margin-after: 1em;
      -webkit-margin-start: 0px;
      -webkit-margin-end: 0px;
-     font-size: 20px;
+
+ }
+
+ .paragraph-text {
+   color: #efc9a0;
+ }
+
+ .Blacksmithing {
+   font-size: 16px;
+   line-height: 2em;
+   color: #b79855;
  }
 
  #paper {
-
+    border-radius: 25px;
    -webkit-box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
    -moz-box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
    box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
@@ -163,18 +175,18 @@ background-color: black;
   font-size:20px;
 }
 
-.medium-blue-text {
+/* .medium-blue-text {
   font-size:2rem;
   font-weight: 700;
   color: #09273e;
   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(255,255,255,.8);
-}
+} */
 
-.small-blue-text {
+/* .small-blue-text {
   font-weight: 700;
     color: #09273e;
     text-shadow: 0 0 1px transparent, 0 1px 2px rgba(255,255,255,.8);
-}
+} */
 
 .features-div {
       padding-left: 5px;
@@ -215,14 +227,7 @@ background-color: black;
 
 .navbar-brand{
   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
-=======
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
-}
-
-/* Card block colors*/
-
-.card-block {
-  color: white;
 }
