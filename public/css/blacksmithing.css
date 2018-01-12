@@ -4,13 +4,13 @@ background-color: black;
 
 #warrior-background {
   background-color: green;
-    /* background-image: url("/images/book-background.jpg");
+    background-image: url("../images/Blacksmith_working.png");
     background-repeat: no-repeat;
     background-image: center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
     font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
     color: #fff;
     font-weight: 400;
@@ -93,6 +93,10 @@ background-color: black;
      font-size: 3.655rem;
     text-align: center;
     text-shadow: 0 0 1px transparent, 0 0 5px rgba(0,0,0,.8);
+ }
+
+ .card-block {
+   color: white;
  }
 
  div{
@@ -215,4 +219,10 @@ background-color: black;
 .imgPadding {
   padding-right: 10px;
   padding-bottom: 1px;
+}
+
+/* Card block colors*/
+
+.card-block {
+  color: white;
 }
