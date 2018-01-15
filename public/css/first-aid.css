@@ -1,0 +1,233 @@
+body, html {
+background-color: black;
+}
+
+#warrior-background {
+    background-image: url("../images/first-aid.jpg");
+    background-repeat: no-repeat;
+    background-image: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    background-size: 100% 100%;
+ }
+
+ #background-container {
+   background-image: url("/images/book-background.jpg");
+   background-color: #200D00;
+   background-repeat: no-repeat;
+   background-image: center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-radius: 25px;
+   font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+   color: #fff;
+   font-weight: 400;
+   font-size: 15px;
+   background-size: 100% 100%;
+ }
+
+ /*top navbar*/
+ .navbar .navbar-nav {
+ display: inline-block;
+ float: none;
+ vertical-align: top;
+ }
+
+ .nav-link {
+ margin: 0px 30px 0px 30px;
+ font-weight: bold;
+ font-size: 15px;
+ }
+
+
+ .dropdown .dropdown-menu {
+   background-color:#002040;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+ }
+
+ .dropdown-item {
+   color: #9d9d9d;
+   background-color:#002040;
+ }
+
+ .dropdown-item:hover {
+   color: white;
+   background-color:#002040;
+ }
+
+ .navbar-toggler {
+   background-color: silver;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
+ }
+
+ .black-nav {
+   background-color: black;
+ }
+
+
+ /* page title */
+ .warrior-content{
+   padding: 0 20px;
+     position: relative;
+     margin: 0 auto;
+     max-width: 1600px;
+     z-index: 0;
+ }
+
+/*page content*/
+ .warrior-title {
+   font-family:"Palatino Linotype", Georgia, Times, sans-serif;
+     font-size: 4.655rem;
+    text-shadow: #241209 0 0 5px;
+    margin-top: 10%;
+    color: #efe3d2;
+ }
+
+ .card-block {
+   color: #b1997f;
+ }
+
+ div{
+ display: block;
+ }
+
+ .medium-space {
+   height: 24px;
+ }
+
+ .large-space {
+   height: 5em;
+ }
+
+ .small-space {
+   height: 15px;
+ }
+
+ .medium-beige-text {
+   font-size: 20px;
+     font-weight: 400;
+     color: #ebdec2;
+     text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+   text-align: center;
+ }
+
+ .medium-white-font{
+     font-size: 24px;
+     font-weight: 700;
+     text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+ }
+
+ .large-beige-text {
+   font-weight: 700;
+    font-size: 20px;
+   color: #854a26;
+   text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);
+   border-bottom: 1px solid rgb(75, 42, 23);
+ }
+
+
+ p {
+     display: block;
+     -webkit-margin-before: 1em;
+     -webkit-margin-after: 1em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+
+ }
+
+ .paragraph-text {
+   color: #efc9a0;
+ }
+
+ .Blacksmithing {
+   font-size: 16px;
+   line-height: 2em;
+   color: #b79855;
+ }
+
+ #paper {
+    border-radius: 25px;
+   -webkit-box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
+   -moz-box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
+   box-shadow: inset 3px -1px 107px 21px rgba(54,32,17,1);
+   background-color: #210C00;
+    padding: 15px;
+    margin: 3px;
+   color: #352011;
+   /* -webkit-box-shadow: 0 0 16px 6px rgba(0,0,0,.5); */
+   height: 500px ;
+}
+
+.collapsed {
+  font-size:20px;
+}
+
+/* .medium-blue-text {
+  font-size:2rem;
+  font-weight: 700;
+  color: #09273e;
+  text-shadow: 0 0 1px transparent, 0 1px 2px rgba(255,255,255,.8);
+} */
+
+/* .small-blue-text {
+  font-weight: 700;
+    color: #09273e;
+    text-shadow: 0 0 1px transparent, 0 1px 2px rgba(255,255,255,.8);
+} */
+
+.features-div {
+      padding-left: 5px;
+}
+
+
+/*social media links*/
+.social {
+  margin: 5px 0 12px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  color: yellow;
+}
+
+.social i {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.social i:hover {
+  color:white;
+}
+
+
+.bottom-background {
+  background-color: black;
+  margin: 20px;
+  outline-color: silver;
+  outline-style: inset;
+  outline-width: thin;
+  color: white;
+}
+
+.fixed-bottom {
+  padding: 20px;
+}
+
+.navbar-brand{
+  font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+.imgPadding {
+  padding-right: 10px;
+  padding-bottom: 1px;
+}
