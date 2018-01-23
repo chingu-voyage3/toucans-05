@@ -19,10 +19,11 @@
           <img src="../images/thinkbottLogo.png" class="img-fluid bottLogo" alt="Responsive image"  width="600px">
           </a>
           <!-- searchBar -->
-          <div>
-            <input class="searchBar" type="text" placeholder="Search..."/>
-            <button>Go</button>
-          </div>
+          <form class="search" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+<input name="q" type="hidden" />
+<input name="qfront" type="search" required class="searchField searchBar" placeholder="" maxlength="50"/>
+<input type="submit" class="search-button" value="Search" />
+</form>
 
 
 
@@ -48,7 +49,7 @@
                       </div>
                     </li>
 
-                    <li class="nav-item dropdown active">
+                    <!-- <li class="nav-item dropdown active">
                       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h3 class="">Find</h3>
                       </a>
@@ -65,76 +66,144 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item text-primary" href="#">Zones</a>
                       </div>
-                    </li>
+                    </li> -->
 
-                    <li class="nav-item dropdown active ">
+                    <li class="nav-item btn-group dropup active">
                       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h3 class="">Classes</h3>
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item text-primary" href="/html/druid.html">Druid</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/hunter.html">Hunter</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/mage.html">Mage</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/paladin.html">Paladin</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/priest.html">Priest</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/rogue.html">Rogue</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/shaman.html">Shaman</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/warlock.html">Warlock</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/warrior.html">Warrior</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/death-knight.html">Death Knight</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/monk.html">Monk</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="/html/demon-hunter.html">Demon Hunter</a>
-                      </div>
-                    </li>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="right: auto; left:-390px;">
+                        <div class="container">
+                          <div class="row d-inline-block text-truncate" style="max-width: 100%;">
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/death-knight.html"><img src="../images/deathknight.png" style="width:100px; height:100px;" alt="..." class="img-thumbnail"></a>
+                                <a>Death Knight</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/demon-hunter.html"><img src="../images/Demonhunterchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Demon Hunter</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/druid.html"><img src="../images/druidchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Druid</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/hunter.html"><img src="../images/hunterChar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Hunter</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/mage.html"><img src="../images/mageChar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Mage</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/monk.html"><img src="../images/monk.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Monk</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/paladin.html"><img src="../images/Paladinchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Paladin</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/priest.html"><img src="../images/priestchar.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Priest</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="..html/rogue.html"><img src="../images/rogue.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Rogue</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/shaman.html"><img src="../images/shaman.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Shaman</a>s
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/warlock.html"><img src="../images/warlock.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Warlock</a>
+                              </div>
+                              <div class="col-sm-2">
+                                <a class="dropdown-item" href="../html/warrior.html"><img src="../images/warrior.png" style="width:100px; height:100px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Warrior</a>
+                              </div>
+                             </div>
+                           </div>
+                        </div>
+                      </li>
 
 
-                    <li class="nav-item dropdown active ">
+                    <li class="nav-item btn-group dropup active">
                       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h3 class="">Professions</h3>
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item text-primary" href="#">Alchemy</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Blacksmithing</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Enchanting</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Engineering</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Herbalism</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Inscription</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Jewelcrafting</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Leatherworking</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Mining</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Skinning</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Tailoring</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Archaeology</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Cooking</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">First Aid</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Fishing</a>
-                      </div>
-                    </li>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="right: auto; left:-550px;">
+                        <div class="container">
+                          <div class="row d-inline-block text-truncate" style="max-width: 100%;">
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/alchemy.html"><img src="../images/alchemy.jpg" style="width:60px; height:60px;" alt="..." class="img-thumbnail"></a>
+                                <a>Alchemy</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/blacksmithing.html"><img src="../images/Blacksmith_working.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Blacksmithing</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/enchanting.html"><img src="../images/druidchar.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Enchanting</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/engineering.html"><img src="../images/hunterChar.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Engineering</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/herbalism.html"><img src="../images/mageChar.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Herbalism</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/zones.html"><img src="../images/monk.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Zones</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/inscription.html"><img src="../images/Paladinchar.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Inscription</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/jewelcrafting.html"><img src="../images/priestchar.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Jewelcrafting</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="..html/leatherworking.html"><img src="../images/rogue.png" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Leatherworking</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/mining.html"><img src="../images/mining.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Mining</a>s
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/skinning.html"><img src="../images/skinning.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Skinning</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/tailoring.html"><img src="../images/tailoring.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Tailoring</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/archaeology.html"><img src="../images/archaeology.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Archaeology</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/cooking.html"><img src="../images/cooking.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Cooking</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/first-aid.html"><img src="../images/first-aid.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>First Aid</a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a class="dropdown-item" href="../html/fishing.html"><img src="../images/fishing.jpg" style="width:60px; height:60px;"  alt="..." class="img-thumbnail"></a>
+                                <a>Fishing</a>
+                              </div>
+                             </div>
+                           </div>
+                        </div>
+                      </li>
 
                     <li class="nav-item dropdown active">
                       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -143,7 +212,7 @@
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item text-primary" href="#">Suggestions</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-primary" href="#">Account Settings</a>
+                        <a class="dropdown-item text-primary" href="../html/login.html">Account Settings</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item text-primary" href="#">Login</a>
                       </div>
