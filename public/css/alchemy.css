@@ -1,3 +1,5 @@
+
+
 body, html {
 background-color: black;
 }
@@ -16,6 +18,31 @@ background-color: black;
     font-size: 15px;
     background-size: 100% 100%;
  }
+
+ @media (max-width: 300px) {
+   #warrior-background {
+     background-color: red;
+     background-image: url("../images/alchemy.jpg");
+   }
+ }
+ @media (min-width: 301px) and (max-width: 600px) {
+   #warrior-background {
+     background-color: blue;
+     background-image:url("../images/green-streak-background.jpg");
+   }
+ }
+ /* @media (min-width: 601px) and (max-width: 768px) {
+   #warrior-background {
+     background-color: yellow;
+     background-image: url("http://placekitten.com/g/500/768");
+   }
+ } */
+ /* @media (min-width: 769px) {
+   #warrior-background {
+     background-color: green;
+     background-image: url("http://placekitten.com/g/800/1048");
+   }
+ } */
 
  #background-container {
    background-image: url("/images/book-background.jpg");
@@ -109,7 +136,7 @@ background-color: black;
  }
 
  .large-space {
-   height: 5em;
+   height: 35%;
  }
 
  .small-space {
