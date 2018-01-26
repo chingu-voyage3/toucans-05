@@ -17,6 +17,19 @@ background-color: black;
     background-size: 100% 100%;
  }
 
+ @media (max-width: 300px) {
+   #warrior-background {
+     background-color: red;
+     background-image: url("../images/jewelcrafting copy.jpg");
+   }
+ }
+ @media (min-width: 301px) and (max-width: 600px) {
+   #warrior-background {
+     background-color: blue;
+     background-image:url("../images/sunset-background.jpg");
+   }
+ }
+
  #background-container {
    background-image: url("/images/book-background.jpg");
    background-color: #200D00;

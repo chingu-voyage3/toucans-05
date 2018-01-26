@@ -31,18 +31,6 @@ background-color: black;
      background-image:url("../images/green-streak-background.jpg");
    }
  }
- /* @media (min-width: 601px) and (max-width: 768px) {
-   #warrior-background {
-     background-color: yellow;
-     background-image: url("http://placekitten.com/g/500/768");
-   }
- } */
- /* @media (min-width: 769px) {
-   #warrior-background {
-     background-color: green;
-     background-image: url("http://placekitten.com/g/800/1048");
-   }
- } */
 
  #background-container {
    background-image: url("/images/book-background.jpg");
