@@ -1,5 +1,3 @@
-
-
 body, html {
 background-color: black;
 }
@@ -17,19 +15,6 @@ background-color: black;
     font-weight: 400;
     font-size: 15px;
     background-size: 100% 100%;
- }
-
- @media (max-width: 300px) {
-   #warrior-background {
-     background-color: red;
-     background-image: url("../images/alchemy.jpg");
-   }
- }
- @media (min-width: 301px) and (max-width: 600px) {
-   #warrior-background {
-     background-color: blue;
-     background-image:url("../images/green-streak-background.jpg");
-   }
  }
 
  #background-container {
@@ -124,7 +109,7 @@ background-color: black;
  }
 
  .large-space {
-   height: 35%;
+   height: 5em;
  }
 
  .small-space {
